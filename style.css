@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap');
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514e;
+}
+
+:root {
+    --button-bg-color: #11cdd4;
+    --button-bg-hover: #30e3cb;
+}
+
+h1 {
+    color: #66BFBF;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #EAF6f6;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    
+
+}
+
+
+a:hover {
+    
+    color: #30e3cb;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: 6px dotted #EAF6f6;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.top-container{
+    background: linear-gradient(#b1e8f4, #ebecf6);
+    height:650px;
+    
+}
+.top-container-div span{
+    text-decoration: underline;
+}
+.top-container-div
+{
+    padding-top:50px;
+}
+
+.top-container img
+{
+position:absolute;
+right: 150px;
+top: 60px;
+}
+.cloud img
+{
+    position:absolute;
+    top:350px;
+    left:150px;
+    
+    
+}
+.mountain img
+{
+    margin-top: 230px;
+  
+   margin-right: 200px;
+   
+
+}
+.profile img{
+    height:200px;
+    width:200px;
+}
+.skill-row1
+{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    width: 70em;
+   
+    margin-left: 5px;
+    margin: auto;
+    
+}
+.skill-row1 img{
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+.skill1-detail
+{
+    text-align: justify;
+    margin-left:15px ;
+}
+.skill-row2
+{
+    display:flex;
+    align-items: flex-start;
+    justify-content:center;
+    width: 70em;
+    
+    margin-left: 5px;
+    margin: auto;
+}
+.skill-row2 img
+{
+    
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    margin-top: 70px;
+}
+.skill2-detail
+{
+    text-align: justify;
+    margin-left:15px ;
+}
+.skill2-detail h3
+{
+    text-align:start;
+    margin-left: 200px;
+    
+}
+
+
+.bottom-container
+{
+    background-color: #66BFBF; 
+    height:300px;
+    margin-top: 100px;
+}
+.contact-me button{
+    
+    height: 40px;
+    background-color: #66BFBF;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+}   
+ .contact-link
+ {
+    padding-top:50px;
+    color: azure;
+}
+.contact-link span
+{
+    color:rgb(11, 94, 94);
+}
+.middle-container
+{
+    margin-top: 150px;
+}
+
+
+
